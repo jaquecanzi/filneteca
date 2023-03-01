@@ -1,13 +1,12 @@
-☐ Configure uma rota get para '/'. Faça que essa rota encaminhe a requisição para o controller PaginasController.index
-☐ Faça que o controller PaginasController renderize a view index.ejs (atualmente nomeada de index.html)
+✔ Configure uma rota get para '/'. Faça que essa rota encaminhe a requisição para o controller PaginasController.index @done(23-02-28 13:45)
+✔ Faça que o controller PaginasController renderize a view index.ejs (atualmente nomeada de index.html) @done(23-02-28 13:45)
+✔ Configure uma rota get para /filme/create e encxaminhe a requisição para a view FilmesController.create @done(23-02-28 13:45)
+✔ Crie o controller FilmesController.create e faça com que esse controller retorne a view filme-create.ejs @done(23-02-28 13:45)
+✔ Crie a view filme-create.ejs e faça com que ela seja exibida na tela ao visitar /filmes/create @done(23-02-28 13:46)
 
+✔ Crie uma rota get para '/filmes/:id' que irá encaminhar a requisição para o controller PaginasController.showFilme @done(23-03-01 18:20)
+✔ Faça com que o controller retorne a view filme.ejs (atualmente nomeada filme.js) @done(23-03-01 18:20)
 
-☐ Configure uma rota get para /filme/create e encxaminhe a requisição para a view FilmesController.create
-☐ Crie o controller FilmesController.create e faça com que esse controller retorne a view filme-create.ejs
-☐ Crie a view filme-create.ejs e faça com que ela seja exibida na tela ao visitar /filmes/create
-
-☐ Crie uma rota get para '/filmes/:id' que irá encaminhar a requisição para o controller PaginasController.showFilme
-☐ Faça com que o controller retorne a view filme.ejs (atualmente nomeada filme.js)
 ☐ Altere o controller PaginasController.index para que ele carregue envie todas os filmes para a view index.ejs.
 ☐ Altere a view index.ejs para que ela exiba todos os filmes, não só "Encanto".
 ☐ Altere a view index.ejs para que cada cada link aponte corretamente para o endereço /filmes/X

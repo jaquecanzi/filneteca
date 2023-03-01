@@ -23,109 +23,15 @@
         </div>
     </header>
     <main class="container">
+        <% for(filme of filmes) { %>
         <article>
-            <img src="./img/03ea8156766457e7.jpg" alt="Encanto">
+            <img src="./img/<%= filme.cartaz%>" alt="<%= filme.titulo%>">
             <a href="">
-                <span class="titulo">Encanto</span>
-                <span class="duracao">Duração: 110 min</span>
-            </a>
-        </article><article>
-            <img src="./img/03ea8156766457e7.jpg" alt="Encanto">
-            <a href="">
-                <span class="titulo">Encanto</span>
-                <span class="duracao">Duração: 110 min</span>
-            </a>
-        </article><article>
-            <img src="./img/03ea8156766457e7.jpg" alt="Encanto">
-            <a href="">
-                <span class="titulo">Encanto</span>
-                <span class="duracao">Duração: 110 min</span>
-            </a>
-        </article><article>
-            <img src="./img/03ea8156766457e7.jpg" alt="Encanto">
-            <a href="">
-                <span class="titulo">Encanto</span>
-                <span class="duracao">Duração: 110 min</span>
-            </a>
-        </article><article>
-            <img src="./img/03ea8156766457e7.jpg" alt="Encanto">
-            <a href="">
-                <span class="titulo">Encanto</span>
-                <span class="duracao">Duração: 110 min</span>
-            </a>
-        </article><article>
-            <img src="./img/03ea8156766457e7.jpg" alt="Encanto">
-            <a href="">
-                <span class="titulo">Encanto</span>
-                <span class="duracao">Duração: 110 min</span>
-            </a>
-        </article><article>
-            <img src="./img/03ea8156766457e7.jpg" alt="Encanto">
-            <a href="">
-                <span class="titulo">Encanto</span>
-                <span class="duracao">Duração: 110 min</span>
-            </a>
-        </article><article>
-            <img src="./img/03ea8156766457e7.jpg" alt="Encanto">
-            <a href="">
-                <span class="titulo">Encanto</span>
-                <span class="duracao">Duração: 110 min</span>
-            </a>
-        </article><article>
-            <img src="./img/03ea8156766457e7.jpg" alt="Encanto">
-            <a href="">
-                <span class="titulo">Encanto</span>
-                <span class="duracao">Duração: 110 min</span>
-            </a>
-        </article><article>
-            <img src="./img/03ea8156766457e7.jpg" alt="Encanto">
-            <a href="">
-                <span class="titulo">Encanto</span>
-                <span class="duracao">Duração: 110 min</span>
-            </a>
-        </article><article>
-            <img src="./img/03ea8156766457e7.jpg" alt="Encanto">
-            <a href="">
-                <span class="titulo">Encanto</span>
-                <span class="duracao">Duração: 110 min</span>
-            </a>
-        </article><article>
-            <img src="./img/03ea8156766457e7.jpg" alt="Encanto">
-            <a href="">
-                <span class="titulo">Encanto</span>
-                <span class="duracao">Duração: 110 min</span>
-            </a>
-        </article><article>
-            <img src="./img/03ea8156766457e7.jpg" alt="Encanto">
-            <a href="">
-                <span class="titulo">Encanto</span>
-                <span class="duracao">Duração: 110 min</span>
-            </a>
-        </article><article>
-            <img src="./img/03ea8156766457e7.jpg" alt="Encanto">
-            <a href="">
-                <span class="titulo">Encanto</span>
-                <span class="duracao">Duração: 110 min</span>
-            </a>
-        </article><article>
-            <img src="./img/03ea8156766457e7.jpg" alt="Encanto">
-            <a href="">
-                <span class="titulo">Encanto</span>
-                <span class="duracao">Duração: 110 min</span>
-            </a>
-        </article><article>
-            <img src="./img/03ea8156766457e7.jpg" alt="Encanto">
-            <a href="">
-                <span class="titulo">Encanto</span>
-                <span class="duracao">Duração: 110 min</span>
-            </a>
-        </article><article>
-            <img src="./img/03ea8156766457e7.jpg" alt="Encanto">
-            <a href="">
-                <span class="titulo">Encanto</span>
+                <span class="titulo"><%= filme.titulo%></span>
                 <span class="duracao">Duração: 110 min</span>
             </a>
         </article>
+        <% } %>
     </main>
     <footer>
 
