@@ -26,7 +26,7 @@
         <% for(filme of filmes) { %>
         <article>
             <img src="./img/<%= filme.cartaz%>" alt="<%= filme.titulo%>">
-            <a href="">
+            <a href="/filmes/<%= filme.id %>">
                 <span class="titulo"><%= filme.titulo%></span>
                 <span class="duracao">Duração: 110 min</span>
             </a>

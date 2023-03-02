@@ -6,7 +6,7 @@ const FilmesController = require('../controllers/FilmesController')
 const router = express.Router()
 
 router.get('/', PaginasController.index) //passo 1
-/* router.get('/filmes/:id', PaginasController.index)  *///passo 1
+router.get('/filmes/:id', PaginasController.showFilme) //passo 1
 router.get('/filmes/create', FilmesController.create)
 
 //Exportando o router
